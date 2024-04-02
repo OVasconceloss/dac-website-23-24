@@ -3,7 +3,7 @@ import schoolLogo from '../../assets/aesa-logo.png';
 
 export const Header = () => {
   return (
-    <header className='flex items-center justify-between border-b-2 border-zinc-100 rounded-b-md'>
+    <header className='flex items-center justify-between border-b-2 border-green-100 rounded-b-md'>
       <Link to={'/'}>
         <div id='logo-div' className='flex items-center space-x-5'>
           <img 
@@ -11,7 +11,7 @@ export const Header = () => {
             alt="School Logo"
             className="object-scale-down max-h-full w-24 h-24 p-2"
           />
-          <h1 className="text-[2.0rem] text-zinc-700">Título do Site</h1>
+          <h1 className="text-[1.7rem] text-zinc-700">Título do Site</h1>
         </div>
       </Link>
       <nav id='header-menu' className='px-2'>
