@@ -5,9 +5,9 @@ import { Objective } from "../components/objective/objective";
 const Home = () => {
   return (
     <>
-    <div className="bg-school-pattern bg-repeat-round bg-scroll">
+    <div className="bg-school-pattern bg-repeat-round bg-fixed">
       <Header />
-      <section className="w-[50rem] h-screen p-5 bg-gradient-to-r from-light_black to-transparent from-100%">
+      <section className="w-[50rem] h-screen p-5 bg-gradient-to-r from-light_black_thr to-transparent from-100%">
         <article className="flex w-full h-full items-center">
           <div>
             <h2 className="text-zinc-100 text-2xl">Desenvolvimento de Autonomia Curricular</h2>
