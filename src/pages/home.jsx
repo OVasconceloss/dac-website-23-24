@@ -18,7 +18,7 @@ const Home = () => {
       <hr className="border-2 border-green-500" />
       <section className="justify-center flex items-center p-5 bg-light_black_thr">
         <article className="my-10 py-10 px-5 w-[80rem] bg-zinc-100 rounded-md">
-          <h1 className="text-2xl text-center">Objetivos do Projeto</h1>
+          <h1 className="text-4xl text-center">Objetivos do Projeto</h1>
           <Objective />
           <Objective isInverted={true}/>
           <Objective />
