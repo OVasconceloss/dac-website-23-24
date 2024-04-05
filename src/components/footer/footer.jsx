@@ -4,10 +4,27 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="px-5 flex items-center justify-between bg-light_black_two border-t-4 border-green-600 shadow">
-      <section className="w-screen flex flex-row-reverse items-center justify-between">
-        <img src={logoSchool} alt="Logo AESA" className="object-scale-down max-h-full w-24 h-24 p-2 rounded-r-md"/>
+    <footer className="flex flex-col bg-light_black_two border-t-4 border-green-600 shadow">
+      <section className="px-5 flex flex-row-reverse items-center justify-between">
+        <img src={logoSchool} alt="Logo AESA" className="object-scale-down w-20 h-20"/>
         <h3 className="text-green-500">Copyright© {currentYear} AESA, All rights reserved.</h3>
+      </section>
+      <section className="flex flex-row-reverse items-center justify-between space-x-5 px-5 bg-zinc-900 rounded-t-lg">
+        <nav id='footer-menu' className='py-5 space-x-5'>
+          <a 
+            href="/" 
+            className='text-[1.1rem] border-b-2 border-transparent text-zinc-50 
+            transition ease-linear hover:border-green-600 hover:text-green-600'>Início</a>
+          <a 
+            href="#" 
+            className='text-[1.1rem] border-b-2 border-transparent text-zinc-50 
+            transition ease-linear hover:border-green-600 hover:text-green-600'>Conteúdos</a>
+          <a 
+            href="/aboutus" 
+            className='text-[1.1rem] border-b-2 border-transparent text-zinc-50 
+            transition ease-linear hover:border-green-600 hover:text-green-600'>Sobre</a>
+        </nav>
+        <h1 className="text-[1.5rem] text-zinc-50">TECIAESA</h1>
       </section>
     </footer>
   );
