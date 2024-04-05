@@ -20,7 +20,7 @@ export const Header = () => {
             className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
             transition ease-linear hover:border-green-600 hover:text-green-600'>Início</a>
           <a 
-            href="#" 
+            href="/content" 
             className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
             transition ease-linear hover:border-green-600 hover:text-green-600'>Conteúdos</a>
           <a 
