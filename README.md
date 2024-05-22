@@ -1,6 +1,5 @@
 <h1 align="center">
      🎒 <a href="" alt="React URL">Developing Curricular Autonomy</a>
-     Artificial Intelligence
 </h1>
 
 <p align="center">
