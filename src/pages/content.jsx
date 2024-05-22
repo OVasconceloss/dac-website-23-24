@@ -1,6 +1,7 @@
 import imageConcept from "../assets/ai_concept.jpg";
 import { Header } from "../components/header/header";
 import { Footer } from "../components/footer/footer";
+import ReactPlayer from "react-player";
 
 const Content = () => {
     return (
@@ -48,7 +49,7 @@ const Content = () => {
                 </article>
             </section>
             <section className="flex justify-center py-5 pb-10 bg-light_black_thr">
-                <article className="w-[82rem] mar p-5 mx-5 bg-zinc-50 rounded-md">
+                <article className="w-[82rem] mar p-5 py-10 mx-5 bg-zinc-50 rounded-md">
                     <h2 className="text-green-500 text-2xl uppercase mb-5 text-center">Vantagens e Desvantagens da Inteligência Artifical</h2>
                     <h3 className="px-5 text-xl mx-52 my-14">Vantagens da Inteligência Artifical</h3>
                     <p className="m-auto text-justify w-[50rem]">
@@ -62,13 +63,21 @@ const Content = () => {
                     <hr className="m-auto w-[50rem] my-10" />
                     <h3 className="px-5 text-xl mx-52 my-10 ml-10 text-right">Desvantagens da Inteligência Artifical</h3>
                     <p className="m-auto text-justify w-[50rem]">
-                        No mundo atual, a Inteligência Artificial ajuda no crescimento das empresas e na nossa vida pessoal, 
-                        mas ainda existe um longo caminho a percorrer até estar totalmente evoluída e concluída. Os chatbots 
-                        (robôs assistentes de IA) e assistentes pessoais são exemplos de como a tecnologia pode ser introduzida 
-                        nas nossas rotinas para melhorar aspetos essenciais para a qualidade de vida. De acordo com dados recentes, 
-                        75% dos trabalhadores acreditam que a inteligência artificial pode criar os seus próprios postos de trabalho, 
-                        mesmo que possibilite profissões relacionadas com processos e que suportem a automização. 
+                        Em relação ao Alto custo de criação, para desenvolver e tornar útil uma inteligência artificial pode ser uma tarefa difícil, 
+                        pois requer um alto investimento. A própria OpenAI recebeu investimentos bilionários dos fundadores e da Microsoft para poder 
+                        desenvolver o ChatGPT e o DALL-E 2. A utilização de inteligência artificial causa o desemprego, as máquinas podem substituir os 
+                        humanos em muitas tarefas, aumentando o desemprego. Ainda não há uma estimativa, pois alguns críticos acreditam que o efeito será 
+                        revertido: as máquinas aumentarão o número de empregos disponíveis. Uma das grandes dificuldades da inteligência artificial é 
+                        compreender as emoções as máquinas podem fazer um trabalho eficaz em muitas áreas, mas não podem substituir a conexão humana, 
+                        a inteligência artificial não tem sentimentos, por isso não consegue compreender muitos aspetos da vida humana. 
                     </p>
+                    <h2 className="text-center text-3xl mt-10 py-10">Vídeo Relacionado</h2>
+                    <div className="m-auto">
+                        <ReactPlayer
+                            className="m-auto"
+                            url="https://www.youtube.com/watch?v=gEJOvEP2r6A"
+                        />
+                    </div>
                 </article>
             </section>
             <Footer />
