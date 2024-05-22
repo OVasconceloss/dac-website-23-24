@@ -14,7 +14,7 @@ const Content = () => {
                 </article>
             </section>
             <section className="flex justify-center py-32 pb-10 bg-light_black_thr">
-                <article className="w-[40rem] p-5 mx-5 bg-zinc-50">
+                <article className="w-[40rem] p-5 mx-5 bg-zinc-50 rounded-md">
                     <h2 className="text-green-500 text-2xl uppercase mb-5">Conceito de Inteligência Artifical</h2>
                     <p className="text-justify">
                         Inteligência Artificial refere-se ao uso de computadores para realizar várias tarefas que normalmente exigem inteligência humana. 
@@ -28,7 +28,7 @@ const Content = () => {
                         <img src={imageConcept} alt="Conceito de AI" className="object-scale-down max-h-64"/>
                     </div>
                 </article>
-                <article className="w-[40rem] p-5 mx-5 bg-zinc-50">
+                <article className="w-[40rem] p-5 mx-5 bg-zinc-50 rounded-md">
                 <h2 className="text-green-500 text-2xl uppercase mb-5">História da Inteligência Artificial</h2>
                     <p className="text-justify">
                         A história da inteligência artificial não é recente, esta leva-nos de volta à década de 50, 
@@ -44,6 +44,30 @@ const Content = () => {
                         Shannon e o seu famoso Teseu foram os pioneiros nos primeiros testes de inteligência artificial, utilizando assim labirintos para 
                         testar a capacidade de aprendizagem e das tomadas de decisões do mesmo. Estas experiências foram fundamentais para o desenvolvimento de 
                         algoritmos de aprendizagem da máquina.  
+                    </p>
+                </article>
+            </section>
+            <section className="flex justify-center py-5 pb-10 bg-light_black_thr">
+                <article className="w-[82rem] mar p-5 mx-5 bg-zinc-50 rounded-md">
+                    <h2 className="text-green-500 text-2xl uppercase mb-5 text-center">Vantagens e Desvantagens da Inteligência Artifical</h2>
+                    <h3 className="px-5 text-xl mx-52 my-14">Vantagens da Inteligência Artifical</h3>
+                    <p className="m-auto text-justify w-[50rem]">
+                        No mundo atual, a Inteligência Artificial ajuda no crescimento das empresas e na nossa vida pessoal, 
+                        mas ainda existe um longo caminho a percorrer até estar totalmente evoluída e concluída. Os chatbots 
+                        (robôs assistentes de IA) e assistentes pessoais são exemplos de como a tecnologia pode ser introduzida 
+                        nas nossas rotinas para melhorar aspetos essenciais para a qualidade de vida. De acordo com dados recentes, 
+                        75% dos trabalhadores acreditam que a inteligência artificial pode criar os seus próprios postos de trabalho, 
+                        mesmo que possibilite profissões relacionadas com processos e que suportem a automização. 
+                    </p>
+                    <hr className="m-auto w-[50rem] my-10" />
+                    <h3 className="px-5 text-xl mx-52 my-10 ml-10 text-right">Desvantagens da Inteligência Artifical</h3>
+                    <p className="m-auto text-justify w-[50rem]">
+                        No mundo atual, a Inteligência Artificial ajuda no crescimento das empresas e na nossa vida pessoal, 
+                        mas ainda existe um longo caminho a percorrer até estar totalmente evoluída e concluída. Os chatbots 
+                        (robôs assistentes de IA) e assistentes pessoais são exemplos de como a tecnologia pode ser introduzida 
+                        nas nossas rotinas para melhorar aspetos essenciais para a qualidade de vida. De acordo com dados recentes, 
+                        75% dos trabalhadores acreditam que a inteligência artificial pode criar os seus próprios postos de trabalho, 
+                        mesmo que possibilite profissões relacionadas com processos e que suportem a automização. 
                     </p>
                 </article>
             </section>
