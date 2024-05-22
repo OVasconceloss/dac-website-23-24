@@ -21,11 +21,11 @@ export const Header = () => {
           </Link>
           <Link to={'/content'} className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
             transition ease-linear hover:border-green-600 hover:text-green-600'>
-          Início
+          Conteúdos
           </Link>
           <Link to={'/aboutus'} className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
             transition ease-linear hover:border-green-600 hover:text-green-600'>
-          Início
+          Sobre
           </Link>
         </nav>
     </header>
