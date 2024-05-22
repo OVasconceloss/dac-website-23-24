@@ -4,7 +4,7 @@
     theme: {
       extend: {
         backgroundImage: {
-          'school-pattern': "url('./src/assets/school-image.jpg')",
+          'school-pattern': "url('/src/assets/school-image.jpg')",
         },
         colors: {
           light_black: "rgb(0, 0, 0, 0.850)",
