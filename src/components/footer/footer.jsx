@@ -11,18 +11,18 @@ export const Footer = () => {
       </section>
       <section className="flex flex-row-reverse items-center justify-between space-x-5 px-5 bg-zinc-900 rounded-t-lg">
         <nav id='footer-menu' className='py-5 space-x-5'>
-          <a 
-            href="/" 
-            className='text-[1.1rem] border-b-2 border-transparent text-zinc-50 
-            transition ease-linear hover:border-green-600 hover:text-green-600'>Início</a>
-          <a 
-            href="/content" 
-            className='text-[1.1rem] border-b-2 border-transparent text-zinc-50 
-            transition ease-linear hover:border-green-600 hover:text-green-600'>Conteúdos</a>
-          <a 
-            href="/aboutus" 
-            className='text-[1.1rem] border-b-2 border-transparent text-zinc-50 
-            transition ease-linear hover:border-green-600 hover:text-green-600'>Sobre</a>
+        <Link to={'/'} className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
+            transition ease-linear hover:border-green-600 hover:text-green-600'>
+          Início
+          </Link>
+          <Link to={'/content'} className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
+            transition ease-linear hover:border-green-600 hover:text-green-600'>
+          Conteúdos
+          </Link>
+          <Link to={'/aboutus'} className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
+            transition ease-linear hover:border-green-600 hover:text-green-600'>
+          Sobre
+          </Link>
         </nav>
         <h1 className="text-[1.5rem] text-zinc-50">TECIAESA</h1>
       </section>
