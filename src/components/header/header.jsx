@@ -15,18 +15,18 @@ export const Header = () => {
         <h1 className="text-[1.7rem] text-zinc-50">TECIAESA</h1>
       </div>
         <nav id='header-menu' className='px-2 space-x-5'>
-          <a 
-            href="/" 
-            className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
-            transition ease-linear hover:border-green-600 hover:text-green-600'>Início</a>
-          <a 
-            href="/content" 
-            className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
-            transition ease-linear hover:border-green-600 hover:text-green-600'>Conteúdos</a>
-          <a 
-            href="/aboutus" 
-            className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
-            transition ease-linear hover:border-green-600 hover:text-green-600'>Sobre</a>
+          <Link to={'/'} className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
+            transition ease-linear hover:border-green-600 hover:text-green-600'>
+          Início
+          </Link>
+          <Link to={'/content'} className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
+            transition ease-linear hover:border-green-600 hover:text-green-600'>
+          Início
+          </Link>
+          <Link to={'/aboutus'} className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
+            transition ease-linear hover:border-green-600 hover:text-green-600'>
+          Início
+          </Link>
         </nav>
     </header>
   );
