@@ -1,7 +1,11 @@
+import ReactPlayer from "react-player";
 import imageConcept from "../assets/ai_concept.jpg";
 import { Header } from "../components/header/header";
 import { Footer } from "../components/footer/footer";
-import ReactPlayer from "react-player";
+import imageOne from "../assets/content/content_1.png";
+import imageTwo from "../assets/content/content_2.jpg";
+import imageThr from "../assets/content/content_3.jpg";
+import imageFou from "../assets/content/content_4.jpg";
 
 const Content = () => {
     return (
@@ -49,7 +53,7 @@ const Content = () => {
                 </article>
             </section>
             <section className="flex justify-center py-5 pb-10 bg-light_black_thr">
-                <article className="w-[82rem] mar p-5 py-10 mx-5 bg-zinc-50 rounded-md">
+                <article className="w-[82rem] p-5 py-10 mx-5 bg-zinc-50 rounded-md">
                     <h2 className="text-green-500 text-2xl uppercase mb-5 text-center">Vantagens e Desvantagens da Inteligência Artifical</h2>
                     <h3 className="px-5 text-xl mx-52 my-14">Vantagens da Inteligência Artifical</h3>
                     <p className="m-auto text-justify w-[50rem]">
@@ -77,6 +81,67 @@ const Content = () => {
                             className="m-auto"
                             url="https://www.youtube.com/watch?v=gEJOvEP2r6A"
                         />
+                    </div>
+                </article>
+            </section>
+            <section className="flex justify-center py-5 pb-10 bg-light_black_thr">
+                <article className="w-[82rem] p-5 py-10 mx-5 bg-zinc-50 rounded-md">
+                    <h2 className="text-green-500 text-2xl uppercase mb-5 text-center">Impacto da utilização da Inteligência Artifical</h2>
+                    <p className="m-auto text-justify w-[50rem]">
+                        No quotidiano, a IA está cada vez mais presente nas nossas vidas, desde assistentes 
+                        virtuais nos nossos smartphones até sistemas de recomendação em plataformas de streaming e 
+                        comércio eletrónico. Essas tecnologias tornam as nossas vidas mais convenientes, personalizadas 
+                        e eficientes, mas também levantam preocupações sobre privacidade, segurança e dependência excessiva 
+                        de algoritmos. É essencial que a sociedade esteja atenta aos impactos da IA e trabalhe para garantir 
+                        que ela seja desenvolvida e utilizada de maneira ética e responsável 
+                    </p>
+                    <hr className="m-auto w-[50rem] my-10" />
+                    <div className="w-[50rem] m-auto my-5 flex-col justify-center space-y-2">
+                        <h3 className="font-bold">Automaticação de tarefas repetitivas</h3>
+                        <div className="flex items-center space-x-2">
+                            <img src={imageOne} alt="Automaticação de tarefas repetitivas" className="object-scale-down max-h-40"/>
+                            <p className="py-2 text-justify">
+                                A IA permite automatizar tarefas rotineiras e repetitivas, 
+                                o que pode libertar os trabalhadores para se concentrarem 
+                                em tarefas mais complexas e criativas. Por exemplo, em setores 
+                                como a indústria e a logística, robôs e sistemas de IA podem assumir 
+                                muitas das tarefas de montagem e transporte.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="w-[50rem] m-auto my-5 flex flex-col space-y-2">
+                        <h3 className="font-bold text-right">Eficiência operativa</h3>
+                        <div className="flex items-center space-x-2">
+                            <p className="py-2 text-justify">
+                                Empresas podem usar IA para otimizar processos internos, melhorar a produtividade
+                                e reduzir custos. Algoritmos de IA podem analisar grandes volumes de dados para identificar
+                                padrões e tendências, ajudando as empresas a tomar decisões mais informadas e rápidas. 
+                            </p>
+                            <img src={imageTwo} alt="Eficiência operativa" className="object-scale-down max-h-40"/>
+                        </div>
+                    </div>
+                    <div className="w-[50rem] m-auto my-5 flex-col justify-center space-y-2">
+                        <h3 className="font-bold">Novas oportunidades de emprego</h3>
+                        <div className="flex items-center space-x-2">
+                            <img src={imageThr} alt="Novas oportunidades de emprego" className="object-scale-down max-h-40"/>
+                            <p className="py-2 text-justify">
+                                Embora a IA possa substituir algumas tarefas, também cria novas oportunidades 
+                                de emprego em áreas relacionadas, como desenvolvimento de algoritmos, engenharia de IA, 
+                                análise de dados e design de experiência do utilizador. 
+                            </p>
+                        </div>
+                    </div>
+                    <div className="w-[50rem] m-auto my-5 flex flex-col space-y-2">
+                        <h3 className="font-bold text-right">Transformação de setores inteiros</h3>
+                        <div className="flex items-center space-x-2">
+                            <p className="py-2 text-justify">
+                                Setores inteiros estão sendo transformados pela IA. Por exemplo, na área da saúde, 
+                                a IA está a ser usada para diagnóstico médico, desenvolvimento de medicamentos e gestão 
+                                de dados de pacientes. Na agricultura, a IA está sendo aplicada para otimizar o uso de recursos, 
+                                monitorizar safras e prever condições climáticas. 
+                            </p>
+                            <img src={imageFou} alt="Transformação de setores inteiros" className="object-scale-down max-h-40"/>
+                        </div>
                     </div>
                 </article>
             </section>
