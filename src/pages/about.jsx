@@ -16,20 +16,28 @@ const About = () => {
         <div className="flex justify-center">
           <article className="w-[35rem] h-[50rem] rounded-b-md p-10 mb-5 mx-5 bg-zinc-50">
             <h3 className="h-[5rem] p-5 text-green-500 text-center text-3xl">Agrupamento de Escolas de Santo André</h3>
-            <p className="mt-14">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              A quos sunt excepturi nisi. Perspiciatis maiores, repellendus qui
-              explicabo distinctio totam? Corporis explicabo accusantium deleniti
-              officia nobis eveniet odio fuga eum?
+            <p className="mt-14 text-justify">
+              A Escola Secundária de Santo André (ESSA) proporciona um saudável ambiente para a aprendizagem com o objetivo de 
+              promover o bom desempenho no percurso universitário. A ESSA possui instalações adequadas e bem cuidadas, onde todos 
+              colaboram para um ambiente positivo, disponibiliza uma grande quantidade de cursos em diversas áreas, como ciências, 
+              humanidades, artes, tecnologia e informática, entre outros. Assim, torna-se um agradável e potenciador local de boas práticas 
+              educativas, permitindo que os alunos escolham os cursos, para que num futuro próximo gostem da sua atividade profissional. 
+            </p>
+            <p className="mt-14 text-justify">
+              Além disso, a escola é constituída por profissionais docentes e não docentes dedicados ao seu trabalho e qualificados para 
+              desempenhar essa função, comprometendo-se em oferecer uma educação e um ambiente de qualidade. A Escola Secundária de Santo 
+              André usa os seus investimentos na infraestrutura de tecnologia e equipamentos renováveis e atualizados, como os laboratórios 
+              de ciências, salas de informática, biblioteca bem equipada com tecnologia e espaços de repouso/atividades desportivas, criando 
+              um ambiente onde os alunos podem socializar e aprender. 
             </p>
           </article>
           <article className="w-[35rem] h-[50rem] rounded-b-md p-10 mb-5 mx-5 bg-zinc-50">
             <h3 className="h-[5rem] p-5 text-green-500 text-center text-3xl">2ºK - Nossa Turma</h3>
-            <p className="mt-14">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              A quos sunt excepturi nisi. Perspiciatis maiores, repellendus qui
-              explicabo distinctio totam? Corporis explicabo accusantium deleniti
-              officia nobis eveniet odio fuga eum?
+            <p className="mt-14 text-justify">
+              A nossa turma, o 11ºK do curso profissional de Informática na Escola Secundária de Santo André, é composta por 25 alunos, 
+              23 rapazes e duas raparigas, com uma média de 16 anos de idade. Os alunos demonstram interesse nos conteúdos das diversas 
+              disciplinas, procurando participar nas aulas, colaborar em trabalhos de grupo e ajudar os colegas quando necessário. No geral, 
+              a turma revela capacidade de trabalho em grupo, visto que é uma metodologia que facilita a aprendizagem. 
             </p>
           </article>
         </div>
