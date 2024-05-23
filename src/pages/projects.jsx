@@ -71,34 +71,25 @@ const Project = () => {
                         <img src={imageTwo} alt="Revolução do Algoritmo Mestre" className="my-5 object-scale-down max-h-96" />
                     </div>
                     <p className="text-justify">
-                        A inteligência artificial tornou-se uma realidade para todas as pessoas do mundo,
-                        na atualidade, é difícil introduzir e desenvolver qualquer tema sem
-                        pensar no recurso e no desenvolvimento da IA, tendo em conta que, é uma
-                        tecnologia que poderá (e já pode) assumir um papel importante para a
-                        humanidade. Tendo em conta a importância deste tema para o nosso futuro, foi
-                        dinamizado na Escola Secundária de Santo André, um debate entre os alunos
-                        do 2ºK para se informarem, refletirem e realizarem trocas de opiniões acerca da
-                        evolução da IA e como esta pode mudar a forma de como pensamos no futuro.
-                        Para este debate, foi escolhido como material principal de pesquisa, o livro
-                        <em>"A Revolução do Algoritmo Mestre"</em>, escrito pelo autor português Pedro
-                        Domingos. Pedro Domingos é professor de ciências da computação da
-                        Universidade de Washington, formado no Instituto Superior Técnico em Lisboa.
+                        A inteligência artificial tornou-se uma realidade para todas as pessoas. 
+                        Na atualidade, é difícil desenvolver qualquer tópico sem pensar no recurso à 
+                        IA, pois é uma tecnologia que assume um papel importante para a humanidade. 
+                        Tendo em conta o seu impacto, foi dinamizado um debate entre os alunos do 2ºK 
+                        da Escola Secundária de Santo André com o objetivo de refletir e trocar opiniões 
+                        acerca da evolução da IA e respetivos benefícios e riscos. A atividade interdisciplinar denominada 
+                        “O impacto da Inteligência Artificial nas empresas/profissões/mundo do trabalho” teve como ponto de partida a 
+                        leitura e análise da obra A Revolução do Algoritmo Mestre, da autoria do português Pedro Domingos, formado no 
+                        Instituto Superior Técnico em Lisboa e professor de Ciências da computação na Universidade de Washington. 
                     </p>
                     <br />
                     <p className="text-justify">
-                        No dia 22 de fevereiro de 2024, foi então realizado o dito debate, reunindo
-                        todos os participantes, em conjunto com os docentes de português (Elisabete
-                        Jesus) e de arquitetura de computadores (José Romeiro), que dinamizaram a
-                        atividade. Como orador do debate, tivemos um dos membros da turma (Victor
-                        Vasconcelos), que seguiu um conjunto de tópicos fornecidos por todos os
-                        participantes do debate. Ao longo do debate, foram colocadas diversas questões,
-                        tais como: "Consideramos os algoritmos uma mais-valia para a sociedade?",
-                        "Consideramos que o algoritmo mestre pode assumir o controlo do mundo?" e
-                        "Qual é a importância da supervisão humana no desenvolvimento ético de
-                        inteligência artificial?". Foi possível analisar diferentes pontos de vista dadas as
-                        respostas obtidas, como por exemplo: a mudança no ambiente de trabalho, e em
-                        como a inteligência artificial vai "forçar" as pessoas a aprenderem a lidar com a
-                        nova tecnologia e o quão a inteligência artificial vai impactar no mercado de trabalho e na vida da humanidade.
+                        Após a tarefa inicial, no dia 22 de fevereiro de 2024, realizou-se um debate na 
+                        presença dos docentes das disciplinas de Português e de Arquitetura de computadores, 
+                        Elisabete de Jesus e José Romeiro, respetivamente. Como mediador, tivemos um dos membros da turma, 
+                        o aluno Victor Vasconcelos, que seguiu um conjunto de tópicos fornecidos por todos os participantes. 
+                        Ao longo do debate, abordaram-se diversas questões, tais como: "Consideram os algoritmos uma mais-valia 
+                        para a sociedade?", "O algoritmo mestre pode assumir o controlo do mundo?" e "Qual é a importância da 
+                        supervisão humana no desenvolvimento ético de inteligência artificial?".  
                     </p>
                 </article>
             </section>
