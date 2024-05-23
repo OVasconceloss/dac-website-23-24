@@ -32,7 +32,7 @@ const About = () => {
             </p>
           </article>
           <article className="w-[35rem] h-[50rem] rounded-b-md p-10 mb-5 mx-5 bg-zinc-50">
-            <h3 className="h-[5rem] p-5 text-green-500 text-center text-3xl">2ºK - Nossa Turma</h3>
+            <h3 className="h-[5rem] p-5 text-green-500 text-center text-3xl">2ºK - A Nossa Turma</h3>
             <p className="mt-14 text-justify">
               A nossa turma, o 11ºK do curso profissional de Informática na Escola Secundária de Santo André, é composta por 25 alunos, 
               23 rapazes e duas raparigas, com uma média de 16 anos de idade. Os alunos demonstram interesse nos conteúdos das diversas 
