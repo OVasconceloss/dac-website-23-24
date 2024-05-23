@@ -47,9 +47,9 @@ const Project = () => {
                         <img src={imageD3} alt="Revolução do Algoritmo Mestre" className="my-5 object-scale-down max-h-40" />
                     </div>
                     <hr />
-                    <h2 className="text-right py-5 text-xl">Debates do clube de robótica "Inforcode Club"</h2>
+                    <h2 className="text-right py-5 text-xl">Debates do clube de robótica "Inforcodeclub"</h2>
                     <p className="text-justify">
-                        No âmbito do clube de robótica "Inforcode Club", realizámos debates sobre vários temas, entre os quais a 
+                        No âmbito do clube de robótica "Inforcodeclub", realizámos debates sobre vários temas, entre os quais a 
                         “Cibersegurança”, a “Utilização de Telemóveis na Sala de Aula” e “Redes Sociais e suas Vantagens e Desvantagens”. 
                         Os debates contaram com a participação ativa dos alunos do 9ºA e do 9ºE. 
                     </p>
@@ -61,6 +61,8 @@ const Project = () => {
                         analisando os benefícios e os desafios. Por último, debatemos as redes sociais, salientando as suas vantagens para a 
                         comunicação e a aprendizagem, mas também alertando para possíveis desvantagens, como a privacidade e o tempo de ecrã. 
                     </p>
+                    <h2 className="text-center mt-5 py-5 text-xl">Projetos do Clube | 2023/2024</h2>
+
                 </article>
             </section>
             <section className="flex justify-center py-32 pb-10 bg-light_black_thr">
@@ -89,7 +91,14 @@ const Project = () => {
                         o aluno Victor Vasconcelos, que seguiu um conjunto de tópicos fornecidos por todos os participantes. 
                         Ao longo do debate, abordaram-se diversas questões, tais como: "Consideram os algoritmos uma mais-valia 
                         para a sociedade?", "O algoritmo mestre pode assumir o controlo do mundo?" e "Qual é a importância da 
-                        supervisão humana no desenvolvimento ético de inteligência artificial?".  
+                        supervisão humana no desenvolvimento ético de inteligência artificial?". 
+                    </p>
+                    <br />
+                    <p>
+                        Foi possível analisar diferentes pontos de 
+                        vista dadas as respostas obtidas, como por exemplo: a mudança no ambiente de trabalho, e em  
+                        como a inteligência artificial vai "forçar" as pessoas a aprenderem a lidar com a  
+                        nova tecnologia e o quão a inteligência artificial vai impactar no mercado de trabalho e na vida da humanidade.  
                     </p>
                 </article>
             </section>
