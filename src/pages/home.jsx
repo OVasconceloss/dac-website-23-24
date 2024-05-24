@@ -10,7 +10,7 @@ const Home = () => {
       <section className="w-[50rem] h-screen p-5 bg-gradient-to-r from-light_black_thr to-transparent from-100%">
         <article className="flex w-full h-full items-center">
           <div>
-            <h2 className="text-zinc-100 text-2xl">Desenvolvimento de Autonomia Curricular</h2>
+            <h2 className="text-zinc-100 text-2xl">Domínios de Autonomia Curricular</h2>
             <h1 className="text-green-500 text-4xl">Escola Secundária de Santo André</h1>
           </div>
         </article>
