@@ -31,6 +31,10 @@ export const Header = () => {
             transition ease-linear hover:border-green-600 hover:text-green-600'>
           Sobre
           </Link>
+          <Link to={'/quizz'} className='p-2 text-[1.1rem] border-b-2 border-transparent text-zinc-50 
+            transition ease-linear hover:border-green-600 hover:text-green-600'>
+          Quiz
+          </Link>
         </nav>
     </header>
   );
