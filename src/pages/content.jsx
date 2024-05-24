@@ -97,7 +97,7 @@ const Content = () => {
                     </p>
                     <hr className="m-auto w-[50rem] my-10" />
                     <div className="w-[50rem] m-auto my-5 flex-col justify-center space-y-2">
-                        <h3 className="font-bold">Automaticação de tarefas repetitivas</h3>
+                        <h3 className="font-bold">Automatização de tarefas repetitivas</h3>
                         <div className="flex items-center space-x-2">
                             <img src={imageOne} alt="Automaticação de tarefas repetitivas" className="object-scale-down max-h-40"/>
                             <p className="py-2 text-justify">
@@ -135,7 +135,7 @@ const Content = () => {
                         <h3 className="font-bold text-right">Transformação de setores inteiros</h3>
                         <div className="flex items-center space-x-2">
                             <p className="py-2 text-justify">
-                                Setores inteiros estão sendo transformados pela IA. Por exemplo, na área da saúde, 
+                                Setores inteiros estão a ser transformados pela IA. Por exemplo, na área da saúde, 
                                 a IA está a ser usada para diagnóstico médico, desenvolvimento de medicamentos e gestão 
                                 de dados de pacientes. Na agricultura, a IA está sendo aplicada para otimizar o uso de recursos, 
                                 monitorizar safras e prever condições climáticas. 
