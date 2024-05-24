@@ -47,9 +47,9 @@ const Project = () => {
             <section className="flex justify-center py-32 pb-10 bg-light_black_thr">
                 <article className="w-[80rem] p-10 mx-5 bg-zinc-50 rounded-md">
                     <h2 className="text-green-500 text-2xl uppercase mb-5 text-center">Clube de Robótica - Inforcodeclub</h2>
-                    <h2 className="mt-10 py-5 text-xl">Debates do clube de robótica "Inforcode Club"</h2>
+                    <h2 className="mt-10 py-5 text-xl">Debates do clube de robótica "Inforcodeclub"</h2>
                     <p className="text-justify">
-                        No âmbito do clube de robótica "InforcodeClub", realizámos uma série de apresentações para dar a conhecer o nosso clube e 
+                        No âmbito do clube de robótica "Inforcodeclub", realizámos uma série de apresentações para dar a conhecer o nosso clube e 
                         os projetos desenvolvidos ao longo do ano letivo. Foram efetuadas 10 apresentações direcionadas para turmas do 8º e 9º anos da 
                         Escola Básica da Quinta da Lomba - 2.º e 3.º ciclos do Ensino Básico. 
                     </p>
