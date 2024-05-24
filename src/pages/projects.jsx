@@ -1,11 +1,13 @@
-import { Footer } from "../components/footer/footer";
-import { Header } from "../components/header/header";
-import imageOne from "../assets/content/content_int_3.jpg";
-import imageTwo from "../assets/content/content_int_2.png";
-
 import imageD1 from "../assets/content/image_1.jpg";
 import imageD2 from "../assets/content/image_2.jpg";
 import imageD3 from "../assets/content/image_3.jpg";
+import { Footer } from "../components/footer/footer";
+import { Header } from "../components/header/header";
+import imageFQ1 from "../assets/content/fq_content_1.jpg";
+import imageFQ2 from "../assets/content/fq_content_2.jpg";
+import imageFQ3 from "../assets/content/fq_content_3.jpg";
+import imageOne from "../assets/content/content_int_3.jpg";
+import imageTwo from "../assets/content/content_int_2.png";
 
 const Project = () => {
     return (
@@ -21,8 +23,25 @@ const Project = () => {
                 <article className="w-[80rem] p-10 mx-5 bg-zinc-50 rounded-md">
                     <h2 className="text-green-500 text-2xl uppercase mb-5 text-center">Isolamento Térmico - Físico-Química</h2>
                     <p>
-
+                        Como parte de um grupo de trabalho numa aula de físico-química, foi implementado um projeto inovador utilizando o Arduíno. 
+                        O objetivo deste projeto era medir a temperatura em casas com e sem isolamento para ver a diferença entre elas. 
+                        Para realizar esta investigação, os alunos programaram um Arduíno capaz de medir a temperatura. Utilizando este dispositivo, 
+                        recolheram dados precisos sobre as flutuações de temperatura em diferentes condições. 
                     </p>
+                    <br />
+                    <p>
+                        Este projeto permitiu aos alunos aplicar conhecimentos teóricos em situações práticas, desenvolvendo as suas 
+                        capacidades de programação e a utilização de sensores tecnológicos. A experiência proporcionou uma compreensão mais 
+                        profunda da importância do isolamento térmico nos edifícios, demonstrando como a tecnologia pode ser utilizada para resolver 
+                        problemas do mundo real e melhorar a eficiência energética. 
+                    </p>
+                    <hr className="m-auto w-[70rem] my-10" />
+                    <h2 className="m-auto text-center text-xl">Imagens da Atividade</h2>
+                    <div className="m-auto flex items-center justify-center space-x-20">
+                        <img src={imageFQ1} alt="Projeto de FQ" className="my-5 object-scale-down max-h-96" />
+                        <img src={imageFQ2} alt="Projeto de FQ" className="my-5 object-scale-down max-h-96" />
+                        <img src={imageFQ3} alt="Projeto de FQ" className="my-5 object-scale-down max-h-96" />
+                    </div>
                 </article>
             </section>
             <section className="flex justify-center py-32 pb-10 bg-light_black_thr">
@@ -61,13 +80,11 @@ const Project = () => {
                         analisando os benefícios e os desafios. Por último, debatemos as redes sociais, salientando as suas vantagens para a 
                         comunicação e a aprendizagem, mas também alertando para possíveis desvantagens, como a privacidade e o tempo de ecrã. 
                     </p>
-                    <h2 className="text-center mt-5 py-5 text-xl">Projetos do Clube | 2023/2024</h2>
-
                 </article>
             </section>
             <section className="flex justify-center py-32 pb-10 bg-light_black_thr">
                 <article className="w-[80rem] p-10 mx-5 bg-zinc-50 rounded-md">
-                    <h2 className="text-green-500 text-2xl uppercase mb-5 text-center">Debate sobre Inteligência Artificial - Português</h2>
+                    <h2 className="text-green-500 text-2xl uppercase mb-5 text-center">Debate sobre Inteligência Artificial - Português e Arquitetura de Computadores</h2>
                     <div className="my-10 flex justify-center space-x-10">
                         <img src={imageOne} alt="Revolução do Algoritmo Mestre" className="my-5 object-scale-down max-h-96" />
                         <img src={imageTwo} alt="Revolução do Algoritmo Mestre" className="my-5 object-scale-down max-h-96" />
@@ -80,7 +97,7 @@ const Project = () => {
                         da Escola Secundária de Santo André com o objetivo de refletir e trocar opiniões 
                         acerca da evolução da IA e respetivos benefícios e riscos. A atividade interdisciplinar denominada 
                         “O impacto da Inteligência Artificial nas empresas/profissões/mundo do trabalho” teve como ponto de partida a 
-                        leitura e análise da obra A Revolução do Algoritmo Mestre, da autoria do português Pedro Domingos, formado no 
+                        leitura e análise da obra <em>A Revolução do Algoritmo Mestre</em>, da autoria do português Pedro Domingos, formado no 
                         Instituto Superior Técnico em Lisboa e professor de Ciências da computação na Universidade de Washington. 
                     </p>
                     <br />
@@ -100,6 +117,9 @@ const Project = () => {
                         como a inteligência artificial vai "forçar" as pessoas a aprenderem a lidar com a  
                         nova tecnologia e o quão a inteligência artificial vai impactar no mercado de trabalho e na vida da humanidade.  
                     </p>
+                    <div className="mt-10">
+                        <a className="underline text-green-500 transition-all hover:text-zinc-900" target="_blank" href="https://unesdoc.unesco.org/ark:/48223/pf0000381137_por">Recomendação sobre a Ética da Inteligência Artificial</a>
+                    </div>
                 </article>
             </section>
             <Footer />
