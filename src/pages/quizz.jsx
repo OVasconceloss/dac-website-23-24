@@ -18,7 +18,7 @@ const Quizz = () => {
                     proporcionando uma ampla revisão de informações disponíveis na plataforma.
                 </p>
                 <div className="my-10 text-center">
-                    <a href="https://38pwgy1rimv.typeform.com/to/lgq3PaEb" target={"_blank"} className="text-2xl">Iniciar o questionário</a>
+                    <a href="https://38pwgy1rimv.typeform.com/to/lgq3PaEb" target={"_blank"} className="text-2xl transition-all underline hover:text-green-500">Iniciar o questionário</a>
                 </div>
           </article>
         </section>
