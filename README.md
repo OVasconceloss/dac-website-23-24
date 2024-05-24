@@ -26,7 +26,8 @@
 
 ## 💻 About
 
-Text About
+The aim of this website is to share all the content developed by the 2ndK class at Santo André Secondary School. 
+The themes developed are all related to the impact of AI on companies/professions/the world of work
 
 ## 🚀 Get Started
 
