@@ -1,5 +1,6 @@
 import { Header } from "../components/header/header";
 import { Footer } from "../components/footer/footer";
+import imageTwo from "../assets/school-image-2.jpg";
 import { Objective } from "../components/objective/objective";
 
 const Home = () => {
@@ -21,7 +22,16 @@ const Home = () => {
           <h1 className="text-4xl text-center">Objetivos do Projeto</h1>
           <Objective />
           <Objective isInverted={true}/>
-          <Objective />
+          <div className="flex items-center space-x-5">
+            <p className="text-justify">
+              O site explica os conceitos básicos de IA, incluindo a historia, as vantagens e desvantagens, 
+              exemplos do uso da IA no quotidiano e o impacto da IA na sociedade, abordando os pros e contras.
+            </p>
+            <img src={imageTwo} alt="Objective One" className="object-scale-down max-h-full w-[35rem] h-[35rem] p-2 rounded-md z-10" />
+            <div class="bg-opacity-25 flex justify-center items-center">
+              <div class="absolute bg-green-600 w-[0.5rem] h-72 shadow z-0"></div>
+            </div>
+          </div>
         </article>
       </section>
       <Footer />
