@@ -1,5 +1,6 @@
 import { Header } from "../components/header/header";
 import { Footer } from "../components/footer/footer";
+import schoolImage from "../assets/school-image-about.jpg";
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
       <section className="flex flex-col justify-center items-center py-32 pb-10 bg-light_black_thr">
         <hr className="w-[80rem] border-4 border-green-500"/>
         <div className="flex justify-center">
-          <article className="w-[35rem] h-[50rem] rounded-b-md p-10 mb-5 mx-5 bg-zinc-50">
+          <article className="w-[35rem] h-[65rem] rounded-b-md p-10 mb-5 mx-5 bg-zinc-50">
             <h3 className="h-[5rem] p-5 text-green-500 text-center text-3xl">Agrupamento de Escolas de Santo André</h3>
             <p className="mt-14 text-justify">
               A Escola Secundária de Santo André (ESSA) proporciona um saudável ambiente para a aprendizagem com o objetivo de 
@@ -23,7 +24,10 @@ const About = () => {
               humanidades, artes, tecnologia e informática, entre outros. Assim, torna-se um agradável e potenciador local de boas práticas 
               educativas, permitindo que os alunos escolham os cursos, para que num futuro próximo gostem da sua atividade profissional. 
             </p>
-            <p className="mt-14 text-justify">
+            <img src={schoolImage} alt="Escola Secundária de Santo André" className="mt-10 my-5 object-scale-down max-h-96 rounded-md
+            border border-green-500" />
+            <figcaption className="text-center"><em>Fig.1 - Escola Secundária de Santo André</em></figcaption>
+            <p className="mt-5 text-justify">
               Além disso, a escola é constituída por profissionais docentes e não docentes dedicados ao seu trabalho e qualificados para 
               desempenhar essa função, comprometendo-se em oferecer uma educação e um ambiente de qualidade. A Escola Secundária de Santo 
               André usa os seus investimentos na infraestrutura de tecnologia e equipamentos renováveis e atualizados, como os laboratórios 
