@@ -90,32 +90,39 @@ const Project = () => {
                         <img src={imageTwo} alt="Revolução do Algoritmo Mestre" className="my-5 object-scale-down max-h-96" />
                     </div>
                     <p className="text-justify">
-                        A inteligência artificial tornou-se uma realidade para todas as pessoas. 
-                        Na atualidade, é difícil desenvolver qualquer tópico sem pensar no recurso à 
-                        IA, pois é uma tecnologia que assume um papel importante para a humanidade. 
-                        Tendo em conta o seu impacto, foi dinamizado um debate entre os alunos do 2ºK 
-                        da Escola Secundária de Santo André com o objetivo de refletir e trocar opiniões 
-                        acerca da evolução da IA e respetivos benefícios e riscos. A atividade interdisciplinar denominada 
-                        “O impacto da Inteligência Artificial nas empresas/profissões/mundo do trabalho” teve como ponto de partida a 
-                        leitura e análise da obra <em>A Revolução do Algoritmo Mestre</em>, da autoria do português Pedro Domingos, formado no 
-                        Instituto Superior Técnico em Lisboa e professor de Ciências da computação na Universidade de Washington. 
+                        A Inteligência Artificial tornou-se uma realidade para todas as pessoas. 
+                        Na atualidade, é difícil desenvolver qualquer tópico sem pensar no recurso à IA, pois 
+                        é uma tecnologia que assume extrema importância na sociedade. Tendo em conta o seu impacto, 
+                        foi dinamizado um debate entre os alunos do 2ºK da Escola Secundária de Santo André com o 
+                        objetivo de refletir e trocar opiniões acerca da evolução da IA e dos seus inegáveis benefícios e riscos.  
+                        A atividade interdisciplinar denominada “O impacto da Inteligência Artificial nas empresas/profissões/mundo do 
+                        trabalho” teve como ponto de partida a leitura e análise da obra A Revolução do Algoritmo Mestre, da autoria 
+                        do português Pedro Domingos, formado no Instituto Superior Técnico em Lisboa e professor de Ciências da computação 
+                        na Universidade de Washington. 
                     </p>
                     <br />
                     <p className="text-justify">
-                        Após a tarefa inicial, no dia 22 de fevereiro de 2024, realizou-se um debate na 
-                        presença dos docentes das disciplinas de Português e de Arquitetura de computadores, 
-                        Elisabete de Jesus e José Romeiro, respetivamente. Como mediador, tivemos um dos membros da turma, 
-                        o aluno Victor Vasconcelos, que seguiu um conjunto de tópicos fornecidos por todos os participantes. 
-                        Ao longo do debate, abordaram-se diversas questões, tais como: "Consideram os algoritmos uma mais-valia 
-                        para a sociedade?", "O algoritmo mestre pode assumir o controlo do mundo?" e "Qual é a importância da 
-                        supervisão humana no desenvolvimento ético de inteligência artificial?". 
+                        A Inteligência Artificial tornou-se uma realidade para todas as pessoas. Na atualidade, 
+                        é difícil desenvolver qualquer tópico sem pensar no recurso à IA, pois é uma tecnologia 
+                        que assume extrema importância na sociedade. Tendo em conta o seu impacto, foi dinamizado 
+                        um debate entre os alunos do 2ºK da Escola Secundária de Santo André com o objetivo de refletir 
+                        e trocar opiniões acerca da evolução da IA e dos seus inegáveis benefícios e riscos.  
+                        A atividade interdisciplinar denominada “O impacto da Inteligência Artificial nas empresas/profissões/mundo do trabalho” 
+                        teve como ponto de partida a leitura e análise da obra <em>A Revolução do Algoritmo Mestre</em>, da autoria do português Pedro Domingos, 
+                        formado no Instituto Superior Técnico em Lisboa e professor de Ciências da computação na Universidade de Washington. 
                     </p>
                     <br />
                     <p>
-                        Foi possível analisar diferentes pontos de 
-                        vista dadas as respostas obtidas, como por exemplo: a mudança no ambiente de trabalho, e em  
-                        como a inteligência artificial vai "forçar" as pessoas a aprenderem a lidar com a  
-                        nova tecnologia e o quão a inteligência artificial vai impactar no mercado de trabalho e na vida da humanidade.  
+                        Após a tarefa inicial, no dia 22 de fevereiro de 2024, realizou-se um debate na presença dos docentes Elisabete de Jesus e 
+                        José Romeiro das disciplinas de Português e de Arquitetura de computadores, respetivamente. Como mediador, tivemos um dos 
+                        alunos da turma, Victor Vasconcelos, que seguiu um conjunto de tópicos fornecidos por todos os participantes. Ao longo do 
+                        debate, abordaram-se diversas questões, tais como: "Consideram os algoritmos uma mais-valia para a sociedade?", "O algoritmo 
+                        mestre pode assumir o controlo do mundo?" e "Qual é a importância da supervisão humana no desenvolvimento ético de inteligência 
+                        artificial?".  
+                        Deste modo, foi possível analisar diferentes pontos de vista sobre o futuro da inteligência artificial e o seu potencial 
+                        transformador em diversas áreas. Este projeto também contribuiu para o desenvolvimento de competências relacionadas com o 
+                        perfil do aluno para o século XXI como o trabalho colaborativo, o pensamento crítico, a comunicação e o aprofundamento do 
+                        saber científico, técnico e tecnológico.
                     </p>
                     <div className="mt-10">
                         <a className="underline text-green-500 transition-all hover:text-zinc-900" target="_blank" href="https://unesdoc.unesco.org/ark:/48223/pf0000381137_por">Recomendação sobre a Ética da Inteligência Artificial</a>
