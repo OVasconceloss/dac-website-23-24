@@ -24,8 +24,8 @@ const Home = () => {
           <Objective isInverted={true}/>
           <div className="flex items-center space-x-5">
             <p className="text-justify">
-              O site explica os conceitos básicos de IA, incluindo a historia, as vantagens e desvantagens, 
-              exemplos do uso da IA no quotidiano e o impacto da IA na sociedade, abordando os pros e contras.
+              Explica, ainda, os conceitos básicos de IA, incluindo a história, as vantagens e desvantagens, 
+              exemplos do seu uso no quotidiano e o impacto na sociedade, abordando prós e contras.
             </p>
             <img src={imageTwo} alt="Objective One" className="object-scale-down max-h-full w-[35rem] h-[35rem] p-2 rounded-md z-10" />
             <div class="bg-opacity-25 flex justify-center items-center">
